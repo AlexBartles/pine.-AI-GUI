@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pine AI Login</title>
+    <style>
+        body {
+            background-color: rgba(240, 248, 255, 0.5);
+            font-family: Arial, sans-serif;
+            animation: fluctuate 15s infinite;
+        }
+       .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+       .header {
+            background-color: #6c5ce7;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+            border-radius: 10px 10px 0 0;
+        }
+       .header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+       .content {
+            padding: 20px;
+        }
+       .form-group {
+            margin-bottom: 20px;
+        }
+       .form-control {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+       .button {
+            background-color: #8e44ad;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+       .button:hover {
+            background-color: #7a2ba4;
+        }
+ 
+        @keyframes fluctuate {
+            0% {
+                background-color: rgba(255, 192, 203, 0.5);
+            }
+            50% {
+                background-color: rgba(72, 52, 212, 0.5);
+            }
+            100% {
+                background-color: rgba(255, 192, 203, 0.5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pine AI</h1>
+            <p>Login to your account</p>
+        </div>
+        <div class="content">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Token">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <button class="button">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
