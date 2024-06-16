@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pine AI - Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/pine-logo.png" type="image/png">
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-form">
+            <div class="logo-container">
+                <img src="images/pine-logo.png" alt="Pine AI Logo" class="logo">
+                <h1>Create Account</h1>
+            </div>
+            <form action="/register" method="POST">
+                <div class="input-group">
+                    <label for="token">Token</label>
+                    <input type="text" id="token" name="token" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="register-button">Register</button>
+                <p class="login-link">Already have an account? <a href="index.html">Login here</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
